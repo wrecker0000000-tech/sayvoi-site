@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sayvoi | Free Audio Tools for Voice and Speech Work</title>
+<meta name="description" content="Sayvoi builds free, privacy-friendly audio tools that run in your browser: an audio converter and a recording quality checker, with practical guides for voice-data work.">
+<link rel="canonical" href="https://sayvoi.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sayvoi">
+<meta property="og:title" content="Sayvoi | Free Audio Tools for Voice and Speech Work">
+<meta property="og:description" content="Free audio converter and recording quality checker. Your files never leave your device.">
+<meta property="og:url" content="https://sayvoi.com/">
+<meta property="og:image" content="https://sayvoi.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Cdefs%3E%3ClinearGradient id=%27g%27 x1=%270%27 y1=%270%27 x2=%271%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%237c4dff%27/%3E%3Cstop offset=%271%27 stop-color=%27%23ff8a3d%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%2764%27 height=%2764%27 rx=%2716%27 fill=%27url(%23g)%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-size=%2742%27 font-family=%27Arial%27 font-weight=%27900%27 fill=%27white%27 text-anchor=%27middle%27%3ES%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "name": "Sayvoi", "url": "https://sayvoi.com/", "logo": "https://sayvoi.com/og.png", "email": "support@sayvoi.com"}, {"@type": "WebSite", "name": "Sayvoi", "url": "https://sayvoi.com/"}]}</script>
+<style>
+:root{--bg:#f6f7fc;--card:#fff;--ink:#1b2240;--muted:#5b6482;--accent:#6a3df0;--line:#dfe3f0;--grad:linear-gradient(135deg,#7c4dff,#2f80ed);--wm:linear-gradient(90deg,#7c4dff,#2f80ed 55%,#ff8a3d)}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:radial-gradient(900px 500px at 90% -10%,rgba(124,77,255,.16),transparent 60%),radial-gradient(800px 500px at 0% 0%,rgba(255,138,61,.14),transparent 55%),radial-gradient(900px 600px at 50% 110%,rgba(47,128,237,.12),transparent 60%),var(--bg);
+ color:var(--ink);font-family:"Segoe UI",Roboto,Tahoma,"Noto Naskh Arabic",Arial,sans-serif;line-height:1.7;font-size:17px}
+html[lang="ar"] body{line-height:1.9}
+.wrap{max-width:980px;margin:0 auto;padding:20px 16px 56px}
+a{color:var(--accent)}
+nav.top{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding:6px 0 14px;border-bottom:1px solid var(--line)}
+.brand{font-weight:900;font-size:26px;letter-spacing:-.5px;text-decoration:none;margin-inline-end:auto;background:var(--wm);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;font-family:"Segoe UI",Roboto,Arial,sans-serif}
+nav.top a.nl{text-decoration:none;color:var(--muted);font-size:15px}
+nav.top a.nl:hover{color:var(--accent)}
+.lang{background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 14px;cursor:pointer;font:inherit;font-size:14px}
+.hero{text-align:center;padding:54px 0 30px}
+h1{font-size:clamp(30px,6vw,48px);line-height:1.2;margin:0 0 14px}
+h1 .g{background:var(--wm);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.sub{color:var(--muted);max-width:640px;margin:0 auto 24px;font-size:19px}
+.btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:12px;padding:12px 24px;background:var(--grad);color:#fff;box-shadow:0 4px 14px rgba(106,61,240,.25);margin:4px}
+.btn.sec{background:#fff;color:var(--ink);border:1px solid var(--line);box-shadow:none}
+h2{font-size:26px;margin:46px 0 14px;line-height:1.3}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.tool{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 24px rgba(60,50,140,.08)}
+.tool h3{margin:0 0 6px;font-size:21px}
+.tool p{color:var(--muted);margin:0 0 16px}
+.tool ul{margin:0 0 18px;padding-inline-start:20px;color:#2b3454}
+.tool li{margin:4px 0}
+.t1{border-top:5px solid #7c4dff}.t2{border-top:5px solid #ff8a3d}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.why div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.why b{display:block;margin-bottom:4px}
+.why span{color:var(--muted);font-size:15px}
+.cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.card{display:block;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--ink);border-inline-start:4px solid #7c4dff}
+.card:nth-child(3n+2){border-inline-start-color:#2f80ed}.card:nth-child(3n){border-inline-start-color:#ff8a3d}
+.card:hover{box-shadow:0 6px 18px rgba(60,50,140,.12)}
+.card b{display:block;margin-bottom:4px;line-height:1.5}
+.card span{color:var(--muted);font-size:15px;line-height:1.6}
+footer{margin-top:50px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center}
+footer a{color:var(--muted);margin:0 8px}
+footer p{margin:6px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="top"><a class="brand" href="/">Sayvoi</a>
+<a class="nl" href="https://convert.sayvoi.com/" data-t="n1"></a><a class="nl" href="https://convert.sayvoi.com/check/" data-t="n2"></a><a class="nl" href="https://convert.sayvoi.com/articles/" data-t="n3"></a><a class="nl" href="https://convert.sayvoi.com/about.html" data-t="n4"></a>
+<button class="lang" id="langBtn" type="button">العربية</button></nav>
+
+<section class="hero">
+<h1 data-h="h1"></h1>
+<p class="sub" data-t="sub"></p>
+<a class="btn" href="https://convert.sayvoi.com/" data-t="b1"></a><a class="btn sec" href="https://convert.sayvoi.com/check/" data-t="b2"></a>
+</section>
+
+<h2 data-t="toolsH"></h2>
+<div class="grid">
+<div class="tool t1"><h3 data-t="c1t"></h3><p data-t="c1p"></p><ul data-ul="c1l"></ul><a class="btn" href="https://convert.sayvoi.com/" data-t="c1b"></a></div>
+<div class="tool t2"><h3 data-t="c2t"></h3><p data-t="c2p"></p><ul data-ul="c2l"></ul><a class="btn" href="https://convert.sayvoi.com/check/" data-t="c2b"></a></div>
+</div>
+
+<h2 data-t="whyH"></h2>
+<div class="why">
+<div><b data-t="w1t"></b><span data-t="w1p"></span></div>
+<div><b data-t="w2t"></b><span data-t="w2p"></span></div>
+<div><b data-t="w3t"></b><span data-t="w3p"></span></div>
+<div><b data-t="w4t"></b><span data-t="w4p"></span></div>
+</div>
+
+<h2 data-t="guidesH"></h2>
+<div class="cards" data-lang="en"><a class="card" href="https://convert.sayvoi.com/articles/en/check-recording-quality-before-delivery.html"><b>A Checklist to Verify Recording Quality Before You Deliver</b><span>A practical pre-delivery checklist for voice recordings: format, sample rate, channels, level, noise, silence, clipping and duplicates, plus how to check them in bulk.</span></a><a class="card" href="https://convert.sayvoi.com/articles/en/sample-rate-16-24-48-khz.html"><b>What Is Sample Rate? 16 vs 24 vs 44.1 vs 48 kHz Explained</b><span>Sample rate explained in plain language: what 16, 24, 44.1 and 48 kHz mean, which one to choose for speech, music or video, and what happens when you convert.</span></a><a class="card" href="https://convert.sayvoi.com/articles/en/wav-vs-mp3-vs-flac.html"><b>WAV vs MP3 vs FLAC vs OGG vs M4A: Which Audio Format Should You Choose?</b><span>A practical comparison of the most common audio formats: file size, quality, compatibility and the best choice for recording, editing, sharing and archiving.</span></a><a class="card" href="https://convert.sayvoi.com/articles/en/audio-clipping-distortion.html"><b>What Is Audio Clipping, and How to Avoid It in Your Recordings</b><span>Clipping flattens the loudest parts of a recording and cannot be properly repaired. Learn how to recognize it, why it happens, and the recording levels that prevent it.</span></a><a class="card" href="https://convert.sayvoi.com/articles/en/record-clean-audio-phone.html"><b>How to Record Clean Audio With Your Phone: A Practical Guide</b><span>Seven simple habits that make phone recordings clear and usable: location, distance, settings, handling noise and a quick test before you start.</span></a><a class="card" href="https://convert.sayvoi.com/articles/en/voice-data-recording-specs.html"><b>Preparing Voice Recordings for Data Projects: Typical Specs and a Checklist</b><span>Common requirements for voice-recording and speech-data projects: format, sample rate, mono or stereo, silence, levels and file naming, with a delivery checklist.</span></a></div>
+<div class="cards" data-lang="ar" hidden dir="rtl"><a class="card" href="https://convert.sayvoi.com/articles/ar/check-recording-quality-before-delivery.html"><b>قائمة تحقق من جودة التسجيلات الصوتية قبل التسليم</b><span>قائمة عملية قبل تسليم التسجيلات الصوتية: الصيغة ومعدل العينة والقنوات والمستوى والضوضاء والصمت والتشويه والتكرار، وكيف تفحصها بالجملة.</span></a><a class="card" href="https://convert.sayvoi.com/articles/ar/sample-rate-16-24-48-khz.html"><b>ما هو معدل العينة؟ شرح 16 و24 و44.1 و48 كيلوهرتز</b><span>شرح معدل العينة بلغة بسيطة: ماذا تعني 16 و24 و44.1 و48 كيلوهرتز، وأيها تختار للكلام أو الموسيقى أو الفيديو، وماذا يحدث عند التحويل.</span></a><a class="card" href="https://convert.sayvoi.com/articles/ar/wav-vs-mp3-vs-flac.html"><b>WAV أم MP3 أم FLAC أم OGG أم M4A: أي صيغة صوتية تختار؟</b><span>مقارنة عملية بين أشهر الصيغ الصوتية: الحجم والجودة والتوافق، وأفضل اختيار للتسجيل والمونتاج والمشاركة والأرشفة.</span></a><a class="card" href="https://convert.sayvoi.com/articles/ar/audio-clipping-distortion.html"><b>ما هو التشويه (Clipping) في الصوت وكيف تتجنبه في تسجيلاتك</b><span>التشويه يسطّح أعلى أجزاء التسجيل ولا يمكن إصلاحه فعليًا. تعرّف على علاماته وأسبابه ومستويات التسجيل التي تمنعه.</span></a><a class="card" href="https://convert.sayvoi.com/articles/ar/record-clean-audio-phone.html"><b>كيف تسجّل صوتًا نظيفًا بهاتفك: دليل عملي</b><span>سبع عادات بسيطة تجعل تسجيلات الهاتف واضحة وصالحة للاستعمال: المكان والمسافة والإعدادات والضوضاء وتجربة قصيرة قبل البدء.</span></a><a class="card" href="https://convert.sayvoi.com/articles/ar/voice-data-recording-specs.html"><b>تجهيز التسجيلات الصوتية لمشاريع البيانات: المواصفات المعتادة وقائمة تحقق</b><span>المتطلبات الشائعة لمشاريع تسجيل الصوت وبيانات الكلام: الصيغة ومعدل العينة ومونو أو ستيريو والصمت والمستويات وتسمية الملفات، مع قائمة تحقق قبل التسليم.</span></a></div>
+<p style="margin-top:18px"><a href="https://convert.sayvoi.com/articles/" data-t="all"></a></p>
+
+<footer>
+<p><a href="https://convert.sayvoi.com/about.html" data-t="n4"></a><a href="https://convert.sayvoi.com/faq.html" data-t="f1"></a><a href="https://convert.sayvoi.com/privacy.html" data-t="f2"></a><a href="https://convert.sayvoi.com/terms.html" data-t="f3"></a><a href="https://convert.sayvoi.com/contact.html" data-t="f4"></a></p>
+<p>support@sayvoi.com · hafezseo@gmail.com</p>
+<p>© 2026 Sayvoi</p>
+</footer>
+</div>
+<script>
+(function(){
+  var T = {
+    en: {
+      n1:"Converter", n2:"Quality checker", n3:"Articles", n4:"About", f1:"FAQ", f2:"Privacy", f3:"Terms", f4:"Contact",
+      sub:"Free, privacy-friendly tools that run in your browser: convert audio files and check recording quality, with practical guides for voice-data work.",
+      b1:"Open the converter", b2:"Check recordings",
+      toolsH:"Our tools",
+      c1t:"Audio Converter", c1p:"Convert between MP3, WAV, OGG, FLAC and M4A.", c1l:["Change sample rate (48 / 24 / 16 kHz and more) and channels","Convert many files at once and download them as a ZIP","Each file shows its original and new format"], c1b:"Convert audio",
+      c2t:"Recording Quality Checker", c2p:"Find problems in your recordings before your client does.", c2l:["Clipping, noise, silence at the start and end","Sample rate, channels, bit depth and duplicates","Set your project specs, get pass / warning / fail and a CSV report"], c2b:"Check recordings",
+      whyH:"Why Sayvoi",
+      w1t:"Your files stay yours", w1p:"Everything runs in your browser. Audio is never uploaded to a server.",
+      w2t:"Free to use", w2p:"The tools are free for everyday use, with no sign-up.",
+      w3t:"Built for voice work", w3p:"Made for people who deliver recordings to exact specifications.",
+      w4t:"Arabic and English", w4p:"Tools and guides are available in both languages.",
+      guidesH:"Practical guides", all:"All articles"
+    },
+    ar: {
+      n1:"المحوّل", n2:"فاحص الجودة", n3:"المقالات", n4:"عن الموقع", f1:"الأسئلة الشائعة", f2:"الخصوصية", f3:"الشروط", f4:"اتصل بنا",
+      sub:"أدوات مجانية تحترم الخصوصية وتعمل داخل متصفحك: حوّل الملفات الصوتية وافحص جودة التسجيلات، مع أدلة عملية للعاملين في بيانات الصوت.",
+      b1:"افتح المحوّل", b2:"افحص التسجيلات",
+      toolsH:"أدواتنا",
+      c1t:"محوّل الصوت", c1p:"حوّل بين MP3 وWAV وOGG وFLAC وM4A.", c1l:["غيّر معدل العينة (48 / 24 / 16 kHz وغيرها) والقنوات","حوّل عدة ملفات معًا ونزّلها في ملف ZIP","يعرض كل ملف صيغته الأصلية والجديدة"], c1b:"حوّل الصوت",
+      c2t:"فاحص جودة التسجيلات", c2p:"اكتشف مشكلات تسجيلاتك قبل أن يكتشفها عميلك.", c2l:["التشويه والضوضاء والصمت في البداية والنهاية","معدل العينة والقنوات وعمق البت والتكرار","حدّد مواصفات مشروعك لتحصل على سليم / تنبيه / مرفوض وتقرير CSV"], c2b:"افحص التسجيلات",
+      whyH:"لماذا Sayvoi",
+      w1t:"ملفاتك تبقى لك", w1p:"كل شيء يعمل داخل متصفحك، ولا يُرفع الصوت إلى أي خادم.",
+      w2t:"مجاني", w2p:"الأدوات مجانية للاستعمال اليومي دون تسجيل.",
+      w3t:"مصمم للعمل الصوتي", w3p:"لمن يسلّمون تسجيلات وفق مواصفات دقيقة.",
+      w4t:"عربي وإنجليزي", w4p:"الأدوات والمقالات متاحة باللغتين.",
+      guidesH:"أدلة عملية", all:"كل المقالات"
+    }
+  };
+  var H = { en:'Simple audio tools for <span class="g">voice and speech</span> work', ar:'أدوات صوتية بسيطة لـ<span class="g">العمل مع الصوت والكلام</span>' };
+  var lang = "en"; try{ var v = localStorage.getItem("lang"); if (v === "ar" || v === "en") lang = v; }catch(e){}
+  function apply(){
+    var t = T[lang];
+    document.documentElement.lang = lang; document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+    document.title = lang === "ar" ? "Sayvoi | أدوات صوتية مجانية للعمل مع الصوت والكلام" : "Sayvoi | Free Audio Tools for Voice and Speech Work";
+    Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function(e){ e.textContent = t[e.getAttribute("data-t")]; });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-h]"), function(e){ e.innerHTML = H[lang]; });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-ul]"), function(e){ e.innerHTML = t[e.getAttribute("data-ul")].map(function(x){ return "<li>"+x+"</li>"; }).join(""); });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-lang]"), function(e){ e.hidden = e.getAttribute("data-lang") !== lang; });
+    document.getElementById("langBtn").textContent = lang === "ar" ? "English" : "العربية";
+  }
+  document.getElementById("langBtn").addEventListener("click", function(){ lang = lang === "ar" ? "en" : "ar"; try{ localStorage.setItem("lang", lang); }catch(e){} apply(); });
+  apply();
+})();
+</script>
+</body>
+</html>

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sayvoi | Free Audio Tools for Voice and Speech Work</title>
-<meta name="description" content="Sayvoi builds free, privacy-friendly audio tools that run in your browser: an audio converter, a recording quality checker, a video-to-audio extractor and an audio cutter, with practical guides for voice-data work.">
+<meta name="description" content="Sayvoi builds free, privacy-friendly audio tools that run in your browser: an audio converter, a recording quality checker, a video-to-audio extractor, an audio cutter, speech to text, numbers to Arabic words, an audio duration calculator and a voice recorder, with practical guides for voice-data work.">
 <link rel="canonical" href="https://sayvoi.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sayvoi">
@@ -42,7 +42,7 @@ h2{font-size:26px;margin:46px 0 14px;line-height:1.3}
 .tool p{color:var(--muted);margin:0 0 16px}
 .tool ul{margin:0 0 18px;padding-inline-start:20px;color:#2b3454}
 .tool li{margin:4px 0}
-.t1{border-top:5px solid #7c4dff}.t2{border-top:5px solid #ff8a3d}.t3{border-top:5px solid #2f80ed}.t4{border-top:5px solid #12a37a}
+.t1{border-top:5px solid #7c4dff}.t2{border-top:5px solid #ff8a3d}.t3{border-top:5px solid #2f80ed}.t4{border-top:5px solid #12a37a}.t5{border-top:5px solid #7c4dff}.t6{border-top:5px solid #ff8a3d}.t7{border-top:5px solid #2f80ed}.t8{border-top:5px solid #12a37a}
 .why{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
 .why div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
 .why b{display:block;margin-bottom:4px}
@@ -61,7 +61,7 @@ footer p{margin:6px 0}
 <body>
 <div class="wrap">
 <nav class="top"><a class="brand" href="/">Sayvoi</a>
-<a class="nl" href="https://convert.sayvoi.com/" data-t="n1"></a><a class="nl" href="https://convert.sayvoi.com/check/" data-t="n2"></a><a class="nl" href="https://convert.sayvoi.com/video-to-audio/" data-t="n5"></a><a class="nl" href="https://convert.sayvoi.com/audio-cutter/" data-t="n7"></a><a class="nl" href="/services/" data-t="n6"></a><a class="nl" href="https://convert.sayvoi.com/articles/" data-t="n3"></a><a class="nl" href="https://convert.sayvoi.com/about.html" data-t="n4"></a>
+<a class="nl" href="https://convert.sayvoi.com/" data-t="n1"></a><a class="nl" href="https://convert.sayvoi.com/check/" data-t="n2"></a><a class="nl" href="https://convert.sayvoi.com/video-to-audio/" data-t="n5"></a><a class="nl" href="https://convert.sayvoi.com/audio-cutter/" data-t="n7"></a><a class="nl" href="https://convert.sayvoi.com/speech-to-text/" data-t="n8"></a><a class="nl" href="https://convert.sayvoi.com/numbers-to-words/" data-t="n9"></a><a class="nl" href="https://convert.sayvoi.com/audio-duration/" data-t="n10"></a><a class="nl" href="https://convert.sayvoi.com/voice-recorder/" data-t="n11"></a><a class="nl" href="/services/" data-t="n6"></a><a class="nl" href="https://convert.sayvoi.com/articles/" data-t="n3"></a><a class="nl" href="https://convert.sayvoi.com/about.html" data-t="n4"></a>
 <button class="lang" id="langBtn" type="button">العربية</button></nav>
 
 <section class="hero">
@@ -76,6 +76,10 @@ footer p{margin:6px 0}
 <div class="tool t2"><h3 data-t="c2t"></h3><p data-t="c2p"></p><ul data-ul="c2l"></ul><a class="btn" href="https://convert.sayvoi.com/check/" data-t="c2b"></a></div>
 <div class="tool t3"><h3 data-t="c3t"></h3><p data-t="c3p"></p><ul data-ul="c3l"></ul><a class="btn" href="https://convert.sayvoi.com/video-to-audio/" data-t="c3b"></a></div>
 <div class="tool t4"><h3 data-t="c4t"></h3><p data-t="c4p"></p><ul data-ul="c4l"></ul><a class="btn" href="https://convert.sayvoi.com/audio-cutter/" data-t="c4b"></a></div>
+<div class="tool t5"><h3 data-t="c5t"></h3><p data-t="c5p"></p><ul data-ul="c5l"></ul><a class="btn" href="https://convert.sayvoi.com/speech-to-text/" data-t="c5b"></a></div>
+<div class="tool t6"><h3 data-t="c6t"></h3><p data-t="c6p"></p><ul data-ul="c6l"></ul><a class="btn" href="https://convert.sayvoi.com/numbers-to-words/" data-t="c6b"></a></div>
+<div class="tool t7"><h3 data-t="c7t"></h3><p data-t="c7p"></p><ul data-ul="c7l"></ul><a class="btn" href="https://convert.sayvoi.com/audio-duration/" data-t="c7b"></a></div>
+<div class="tool t8"><h3 data-t="c8t"></h3><p data-t="c8p"></p><ul data-ul="c8l"></ul><a class="btn" href="https://convert.sayvoi.com/voice-recorder/" data-t="c8b"></a></div>
 </div>
 
 <h2 data-t="whyH"></h2>
@@ -109,6 +113,11 @@ footer p{margin:6px 0}
       c2t:"Recording Quality Checker", c2p:"Find problems in your recordings before your client does.", c2l:["Clipping, noise, silence at the start and end","Sample rate, channels, bit depth and duplicates","Set your project specs, get pass / warning / fail and a CSV report"], c2b:"Check recordings",
       c3t:"Video to Audio", c3p:"Extract the sound from a video.", c3l:["MP4, MOV, WebM and more, saved as MP3, WAV, FLAC, OGG or M4A","Set sample rate and channels for speech projects","The video is never uploaded"], c3b:"Extract audio",
       c4t:"Audio Cutter", c4p:"Cut the part you need from any audio file.", c4l:["Drag two handles on the waveform, or type exact start and end times","Preview, add a fade in or fade out","Save as MP3 or WAV, without uploading the file"], c4b:"Cut audio",
+      n8:"Speech to text", n9:"Numbers to words", n10:"Audio duration", n11:"Voice recorder",
+      c5t:"Audio to Text (beta)", c5p:"Get a draft transcript from your audio.", c5l:["Arabic (Fusha), English and French, up to 10 minutes","Runs in your browser, the audio is never uploaded","Copy the text and edit it to your guidelines"], c5b:"Transcribe audio",
+      c6t:"Numbers to Arabic Words", c6p:"Write numbers the way they are spoken.", c6l:["Egyptian dialect or Modern Standard Arabic","Numbers, dates, times, amounts, percentages and phone numbers","Find any digits left in your text"], c6b:"Convert numbers",
+      c7t:"Audio Duration Calculator", c7p:"Total hours of many recordings in seconds.", c7l:["Total, average, longest and shortest file","Sample rate and channels for each file","Check project rules and export a CSV"], c7b:"Calculate duration",
+      c8t:"Online Voice Recorder", c8p:"Record sentence by sentence and download a ZIP.", c8l:["Room noise test, WAV or MP3, 16 / 24 / 48 kHz, mono or stereo","Load a script and move with Next and Previous","Your takes are saved on your device"], c8b:"Record now",
       whyH:"Why Sayvoi",
       w1t:"Your files stay yours", w1p:"Everything runs in your browser. Audio is never uploaded to a server.",
       w2t:"Free to use", w2p:"The tools are free for everyday use, with no sign-up.",
@@ -125,6 +134,11 @@ footer p{margin:6px 0}
       c2t:"فاحص جودة التسجيلات", c2p:"اكتشف مشكلات تسجيلاتك قبل أن يكتشفها عميلك.", c2l:["التشويه والضوضاء والصمت في البداية والنهاية","معدل العينة والقنوات وعمق البت والتكرار","حدّد مواصفات مشروعك لتحصل على سليم / تنبيه / مرفوض وتقرير CSV"], c2b:"افحص التسجيلات",
       c3t:"الفيديو إلى صوت", c3p:"استخرج الصوت من فيديو.", c3l:["MP4 وMOV وWebM وغيرها، بصيغة MP3 أو WAV أو FLAC أو OGG أو M4A","اضبط معدل العينة والقنوات لمشاريع الكلام","لا يُرفع الفيديو أبدًا"], c3b:"استخرج الصوت",
       c4t:"قص الصوت", c4p:"اقطع الجزء الذي تحتاجه من أي ملف صوتي.", c4l:["اسحب مقبضين على شكل الموجة، أو اكتب وقتي البداية والنهاية بدقة","استمع للمقطع وأضف تلاشيًا في البداية أو النهاية","احفظه MP3 أو WAV دون رفع الملف"], c4b:"قص الصوت",
+      n8:"الصوت إلى نص", n9:"الأرقام بالحروف", n10:"مدة الملفات", n11:"مسجّل الصوت",
+      c5t:"الصوت إلى نص (بيتا)", c5p:"احصل على مسودة تفريغ من صوتك.", c5l:["فصحى وإنجليزي وفرنسي، حتى 10 دقائق","يعمل داخل متصفحك ولا يُرفع الصوت أبدًا","انسخ النص وعدّله حسب إرشاداتك"], c5b:"فرّغ الصوت",
+      c6t:"الأرقام بالحروف العربية", c6p:"اكتب الأرقام كما تُنطق.", c6l:["باللهجة المصرية أو الفصحى","الأرقام والتواريخ والأوقات والمبالغ والنسب وأرقام الهاتف","اكتشف أي أرقام بقيت في نصك"], c6b:"حوّل الأرقام",
+      c7t:"حاسبة مدة الملفات الصوتية", c7p:"إجمالي ساعات عشرات التسجيلات في ثوانٍ.", c7l:["الإجمالي والمتوسط وأطول وأقصر ملف","معدل العينة والقنوات لكل ملف","افحص شروط المشروع وصدّر CSV"], c7b:"احسب المدة",
+      c8t:"مسجّل الصوت أونلاين", c8p:"سجّل جملة بجملة ونزّل ملف ZIP.", c8l:["اختبار ضوضاء، WAV أو MP3، 16 / 24 / 48 kHz، مونو أو ستيريو","ارفع نصًا وتنقّل بزرّي التالي والسابق","تسجيلاتك محفوظة على جهازك"], c8b:"سجّل الآن",
       whyH:"لماذا Sayvoi",
       w1t:"ملفاتك تبقى لك", w1p:"كل شيء يعمل داخل متصفحك، ولا يُرفع الصوت إلى أي خادم.",
       w2t:"مجاني", w2p:"الأدوات مجانية للاستعمال اليومي دون تسجيل.",

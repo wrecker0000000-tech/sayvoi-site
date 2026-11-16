@@ -7,8 +7,10 @@ var D={
    ["/audio-cutter/","✂️","Audio cutter","قص الصوت","Trim and cut recordings","قصّ التسجيلات واقتطع أجزاء منها"],
    ["/audio-cleaner/","✨","Audio cleaner","منظّف الصوت","Reduce noise, trim silence, set volume","خفّف الضوضاء وأزل الصمت واضبط الصوت"],
    ["/audio-speed/","⏩","Speed changer","تغيير السرعة","Slow down or speed up audio","أبطئ الصوت أو سرّعه"],
-   ["/voice-recorder/","🎙️","Voice recorder","مسجّل الصوت","Record WAV or MP3 in your browser","سجّل صوتك بصيغة WAV أو MP3"],
-   ["/video-to-audio/","🎬","Video to audio","فيديو إلى صوت","Extract the audio from video files","استخرج الصوت من ملفات الفيديو"]]},
+   ["/voice-recorder/","🎙️","Voice recorder","مسجّل الصوت","Record WAV or MP3 in your browser","سجّل صوتك بصيغة WAV أو MP3"]]},
+  {id:"video",ic:"🎬",en:"Video",ar:"الفيديو",items:[
+   ["/video-to-audio/","🎞️","Video to audio","فيديو إلى صوت","Extract the audio from video files","استخرج الصوت من ملفات الفيديو"],
+   ["/script-video/","📽️","Script to video","من السكربت إلى فيديو","Turn a script into a slide video","حوّل السكربت إلى فيديو شرائح"]]},
   {id:"qc",ic:"✅",en:"Check & organize",ar:"الفحص والتنظيم",items:[
    ["/check/","✅","Quality checker","فاحص الجودة","Find clipping, noise and silence","اكتشف القصّ والضوضاء والصمت"],
    ["/audio-duration/","⏱️","Audio duration","مدة الملفات","Total length of many files","مجموع مدة ملفات كثيرة"],

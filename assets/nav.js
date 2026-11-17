@@ -21,7 +21,9 @@ var D={
    ["/numbers-to-words/","🔢","Numbers to words","الأرقام بالحروف","Digits to spoken Arabic words","حوّل الأرقام إلى كلمات عربية منطوقة"],
    ["/text-diff/","🔍","Text diff","مقارنة النصوص","Compare two texts and see the changes","قارن نصّين وشاهد التغييرات"],
    ["/csv-to-json/","🧾","CSV to JSON","CSV إلى JSON","Turn a CSV table into JSON","حوّل جدول CSV إلى JSON"],
-   ["/colloquial-to-fusha/","📖","Colloquial to Fusha","العامية إلى الفصحى","Convert Egyptian Arabic to Standard Arabic","حوّل العامية المصرية إلى الفصحى"]]}
+   ["/colloquial-to-fusha/","📖","Colloquial to Fusha","العامية إلى الفصحى","Convert Egyptian Arabic to Standard Arabic","حوّل العامية المصرية إلى الفصحى"]]},
+  {id:"docs",ic:"📄",en:"Documents",ar:"المستندات",items:[
+   ["/sign-pdf/","✍️","Sign PDF","توقيع PDF","Sign a PDF with your own signature","وقّع ملف PDF بتوقيعك"]]}
  ],
  links:[["/articles/","Articles","المقالات"],["https://sayvoi.com/services/","Services","الخدمات"],["/about.html","About","عن الموقع"]]
 };

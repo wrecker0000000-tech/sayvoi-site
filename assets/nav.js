@@ -15,10 +15,11 @@ var D={
    ["/check/","✅","Quality checker","فاحص الجودة","Find clipping, noise and silence","اكتشف القصّ والضوضاء والصمت"],
    ["/audio-duration/","⏱️","Audio duration","مدة الملفات","Total length of many files","مجموع مدة ملفات كثيرة"],
    ["/audio-renamer/","🏷️","Batch renamer","إعادة التسمية","Rename recordings from a ZIP","أعد تسمية تسجيلات كثيرة من ZIP"]]},
-  {id:"text",ic:"📝",en:"Text",ar:"النصوص",items:[
+  {id:"text",ic:"📝",en:"Text & Data",ar:"النصوص والبيانات",items:[
    ["/speech-to-text/","🗣️","Speech to text","الصوت إلى نص","Transcribe audio in your browser","حوّل الصوت إلى نص داخل متصفحك"],
    ["/sentence-splitter/","🧩","Sentence splitter","مقسّم الجمل","Split text into recording sentences","قسّم النص إلى جمل للتسجيل"],
-   ["/numbers-to-words/","🔢","Numbers to words","الأرقام بالحروف","Digits to spoken Arabic words","حوّل الأرقام إلى كلمات عربية منطوقة"]]}
+   ["/numbers-to-words/","🔢","Numbers to words","الأرقام بالحروف","Digits to spoken Arabic words","حوّل الأرقام إلى كلمات عربية منطوقة"],
+   ["/text-diff/","🔍","Text diff","مقارنة النصوص","Compare two texts and see the changes","قارن نصّين وشاهد التغييرات"]]}
  ],
  links:[["/articles/","Articles","المقالات"],["https://sayvoi.com/services/","Services","الخدمات"],["/about.html","About","عن الموقع"]]
 };

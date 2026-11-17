@@ -19,7 +19,8 @@ var D={
    ["/speech-to-text/","🗣️","Speech to text","الصوت إلى نص","Transcribe audio in your browser","حوّل الصوت إلى نص داخل متصفحك"],
    ["/sentence-splitter/","🧩","Sentence splitter","مقسّم الجمل","Split text into recording sentences","قسّم النص إلى جمل للتسجيل"],
    ["/numbers-to-words/","🔢","Numbers to words","الأرقام بالحروف","Digits to spoken Arabic words","حوّل الأرقام إلى كلمات عربية منطوقة"],
-   ["/text-diff/","🔍","Text diff","مقارنة النصوص","Compare two texts and see the changes","قارن نصّين وشاهد التغييرات"]]}
+   ["/text-diff/","🔍","Text diff","مقارنة النصوص","Compare two texts and see the changes","قارن نصّين وشاهد التغييرات"],
+   ["/csv-to-json/","🧾","CSV to JSON","CSV إلى JSON","Turn a CSV table into JSON","حوّل جدول CSV إلى JSON"]]}
  ],
  links:[["/articles/","Articles","المقالات"],["https://sayvoi.com/services/","Services","الخدمات"],["/about.html","About","عن الموقع"]]
 };

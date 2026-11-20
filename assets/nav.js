@@ -26,7 +26,8 @@ var D={
    ["/sign-pdf/","✍️","Sign PDF","توقيع PDF","Sign a PDF with your own signature","وقّع ملف PDF بتوقيعك"],
   ["/word-to-pdf/","🔄","Word ⇄ PDF","Word ⇄ PDF","Convert Word to PDF and PDF to Word","حوّل Word إلى PDF وPDF إلى Word"],
   ["/organize-pdf/","🗂️","Merge & split PDF","دمج وتقسيم PDF","Merge, split, rotate and reorder PDF pages","ادمج وقسّم ودوّر ورتّب صفحات PDF"],
-  ["/compress-pdf/","🗜️","Compress PDF","ضغط PDF","Make a PDF file smaller","صغّر حجم ملف PDF"]]}
+  ["/compress-pdf/","🗜️","Compress PDF","ضغط PDF","Make a PDF file smaller","صغّر حجم ملف PDF"],
+  ["/edit-pdf/","✏️","Edit PDF","تعديل PDF","Change, delete and add text in a PDF","غيّر النص واحذفه وأضف نصًا في PDF"]]}
  ],
  links:[["/articles/","Articles","المقالات"],["https://sayvoi.com/services/","Services","الخدمات"],["/about.html","About","عن الموقع"]]
 };

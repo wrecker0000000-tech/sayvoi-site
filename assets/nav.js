@@ -29,7 +29,10 @@ var D={
   ["/word-to-pdf/","🔄","Word ⇄ PDF","Word ⇄ PDF","Convert Word to PDF and PDF to Word","حوّل Word إلى PDF وPDF إلى Word"],
   ["/organize-pdf/","🗂️","Merge & split PDF","دمج وتقسيم PDF","Merge, split, rotate and reorder PDF pages","ادمج وقسّم ودوّر ورتّب صفحات PDF"],
   ["/compress-pdf/","🗜️","Compress PDF","ضغط PDF","Make a PDF file smaller","صغّر حجم ملف PDF"],
-  ["/edit-pdf/","✏️","Edit PDF","تعديل PDF","Change, delete and add text in a PDF","غيّر النص واحذفه وأضف نصًا في PDF"]]}
+  ["/edit-pdf/","✏️","Edit PDF","تعديل PDF","Change, delete and add text in a PDF","غيّر النص واحذفه وأضف نصًا في PDF"]]},
+  {id:"img",ic:"🖼️",en:"Images",ar:"الصور",items:[
+   ["/compress-image/","🗜️","Compress images","ضغط الصور","Make JPG, PNG and WEBP photos smaller","صغّر حجم صور JPG وPNG وWEBP"],
+   ["/convert-image/","🔁","Image converter","محوّل الصور","Convert between JPG, PNG and WEBP","حوّل بين JPG وPNG وWEBP"]]}
  ],
  links:[["/articles/","Articles","المقالات"],["https://sayvoi.com/services/","Services","الخدمات"],["/about.html","About","عن الموقع"]]
 };

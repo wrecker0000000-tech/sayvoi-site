@@ -7,7 +7,8 @@ var D={
    ["/audio-cutter/","✂️","Audio cutter","قص الصوت","Trim and cut recordings","قصّ التسجيلات واقتطع أجزاء منها"],
    ["/audio-cleaner/","✨","Audio cleaner","منظّف الصوت","Reduce noise, trim silence, set volume","خفّف الضوضاء وأزل الصمت واضبط الصوت"],
    ["/audio-speed/","⏩","Speed changer","تغيير السرعة","Slow down or speed up audio","أبطئ الصوت أو سرّعه"],
-   ["/voice-recorder/","🎙️","Voice recorder","مسجّل الصوت","Record WAV or MP3 in your browser","سجّل صوتك بصيغة WAV أو MP3"]]},
+   ["/voice-recorder/","🎙️","Voice recorder","مسجّل الصوت","Record WAV or MP3 in your browser","سجّل صوتك بصيغة WAV أو MP3"],
+   ["/pronunciation-trainer/","🎓","Pronunciation trainer","مدرّب النطق","Hear English sentences, record yourself and get a score","استمع لجمل إنجليزية وسجّل صوتك واحصل على تقييم"]]},
   {id:"video",ic:"🎬",en:"Video",ar:"الفيديو",items:[
    ["/video-to-audio/","🎞️","Video to audio","فيديو إلى صوت","Extract the audio from video files","استخرج الصوت من ملفات الفيديو"],
    ["/script-video/","📽️","Script to video","من السكربت إلى فيديو","Turn a script into a slide video","حوّل السكربت إلى فيديو شرائح"]]},

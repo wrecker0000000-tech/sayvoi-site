@@ -32,7 +32,10 @@ var D={
   ["/edit-pdf/","✏️","Edit PDF","تعديل PDF","Change, delete and add text in a PDF","غيّر النص واحذفه وأضف نصًا في PDF"]]},
   {id:"img",ic:"🖼️",en:"Images",ar:"الصور",items:[
    ["/compress-image/","🗜️","Compress images","ضغط الصور","Make JPG, PNG and WEBP photos smaller","صغّر حجم صور JPG وPNG وWEBP"],
-   ["/convert-image/","🔁","Image converter","محوّل الصور","Convert between JPG, PNG and WEBP","حوّل بين JPG وPNG وWEBP"]]}
+   ["/convert-image/","🔁","Image converter","محوّل الصور","Convert between JPG, PNG and WEBP","حوّل بين JPG وPNG وWEBP"],
+   ["/resize-image/","📐","Resize images","تغيير مقاس الصور","Set the exact width and height","حدّد العرض والارتفاع بالضبط"],
+   ["/images-to-pdf/","📑","Images to PDF","صور إلى PDF","Combine photos into one PDF","ادمج صورك في ملف PDF واحد"],
+   ["/heic-to-jpg/","📱","HEIC to JPG","HEIC إلى JPG","Convert iPhone photos to JPG","حوّل صور الأيفون إلى JPG"]]}
  ],
  links:[["/articles/","Articles","المقالات"],["https://sayvoi.com/services/","Services","الخدمات"],["/about.html","About","عن الموقع"]]
 };

@@ -6,6 +6,7 @@ var D={
    ["/","🔄","Converter","المحوّل","Convert between MP3, WAV, OGG, FLAC and M4A","حوّل بين MP3 وWAV وOGG وFLAC وM4A"],
    ["/audio-cutter/","✂️","Audio cutter","قص الصوت","Trim and cut recordings","قصّ التسجيلات واقتطع أجزاء منها"],
    ["/audio-cleaner/","✨","Audio cleaner","منظّف الصوت","Reduce noise, trim silence, set volume","خفّف الضوضاء وأزل الصمت واضبط الصوت"],
+   ["/audio-joiner/","🔗","Audio joiner","دمج الصوت","Join many audio files into one","ادمج ملفات صوتية كثيرة في ملف واحد"],
    ["/audio-speed/","⏩","Speed changer","تغيير السرعة","Slow down or speed up audio","أبطئ الصوت أو سرّعه"],
    ["/voice-recorder/","🎙️","Voice recorder","مسجّل الصوت","Record WAV or MP3 in your browser","سجّل صوتك بصيغة WAV أو MP3"],
    ["/pronunciation-trainer/","🎓","Pronunciation trainer","مدرّب النطق","Hear English sentences, record yourself and get a score","استمع لجمل إنجليزية وسجّل صوتك واحصل على تقييم"]]},

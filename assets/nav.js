@@ -23,6 +23,7 @@ var D={
    ["/numbers-to-words/","🔢","Numbers to words","الأرقام بالحروف","Digits to spoken Arabic words","حوّل الأرقام إلى كلمات عربية منطوقة"],
    ["/text-diff/","🔍","Text diff","مقارنة النصوص","Compare two texts and see the changes","قارن نصّين وشاهد التغييرات"],
    ["/csv-to-json/","🧾","CSV to JSON","CSV إلى JSON","Turn a CSV table into JSON","حوّل جدول CSV إلى JSON"],
+   ["/arabic-text-cleaner/","🧹","Arabic text cleaner","منظّف النص العربي","Remove diacritics and normalize Arabic text","احذف التشكيل ووحّد النص العربي"],
    ["/subtitle-converter/","💬","Subtitle converter","محوّل الترجمة","Text, SRT and VTT subtitles in both directions","نص وترجمة SRT وVTT في الاتجاهين"],
    ["/colloquial-to-fusha/","📖","Colloquial to Fusha","العامية إلى الفصحى","Convert Egyptian Arabic to Standard Arabic","حوّل العامية المصرية إلى الفصحى"],
    ["/qr-code/","🔳","QR Code Generator","إنشاء باركود QR","Make QR codes for links, WhatsApp and Wi-Fi","أنشئ باركود QR للروابط والواتساب والواي فاي"]]},

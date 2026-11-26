@@ -15,6 +15,7 @@ var D={
    ["/script-video/","📽️","Script to video","من السكربت إلى فيديو","Turn a script into a slide video","حوّل السكربت إلى فيديو شرائح"]]},
   {id:"qc",ic:"✅",en:"Check & organize",ar:"الفحص والتنظيم",items:[
    ["/check/","✅","Quality checker","فاحص الجودة","Find clipping, noise and silence","اكتشف القصّ والضوضاء والصمت"],
+   ["/delivery-checker/","📦","Delivery checker","فاحص التسليم","Find missing and duplicate files in a ZIP","اعثر على الملفات الناقصة والمكررة في ZIP"],
    ["/audio-duration/","⏱️","Audio duration","مدة الملفات","Total length of many files","مجموع مدة ملفات كثيرة"],
    ["/audio-renamer/","🏷️","Batch renamer","إعادة التسمية","Rename recordings from a ZIP","أعد تسمية تسجيلات كثيرة من ZIP"]]},
   {id:"text",ic:"📝",en:"Text & Data",ar:"النصوص والبيانات",items:[
